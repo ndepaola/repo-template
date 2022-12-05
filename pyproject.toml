@@ -1,0 +1,9 @@
+[tool.isort]
+profile = "black"
+# If this is a monorepo for multiple projects, you may want to set up each as known entry point
+known_django = "django"
+sections = ["FUTURE", "STDLIB", "THIRDPARTY", "DJANGO", "FIRSTPARTY", "LOCALFOLDER"]
+skip = ["build", "dist"]
+
+[tool.black]
+line-length = 120
