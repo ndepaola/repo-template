@@ -21,7 +21,7 @@ repos:
     hooks:
       - id: mypy
         # If this is a monorepo, specify each Python project root below
-        args: [--config-file, mypy.ini, ]
+        args: [--config-file, mypy.ini]
         # Specify any additional dependencies that MyPy needs (you'll likely need to specify several Python packages you've installed)
         additional_dependencies: []
         pass_filenames: false
